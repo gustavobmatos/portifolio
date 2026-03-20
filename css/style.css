@@ -1,5 +1,6 @@
 body{
     background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1{
@@ -12,16 +13,31 @@ h2{
 
 nav{
     background-color: black;
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
 }
 
 nav a{
     color: aliceblue;
+    text-decoration: none;
+    margin: 10px;
 }
 
 section{
     background-color: whitesmoke;
     padding: 20px;
     margin: 20px;
+}
+
+#inicio{
+    background-color: lightblue;
+}
+
+.nome{
+    color: brown;
+}
+
+.cabecalho{
+    text-align: center;
 }
